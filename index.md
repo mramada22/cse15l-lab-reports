@@ -1,6 +1,6 @@
 # Welcome to my website 
 
-> This is a block quote where it looks like I'm saying something important but I really am not. 
+> This is a block quote. 
 
 `This is shaded for emphasis` cool right? 
 
