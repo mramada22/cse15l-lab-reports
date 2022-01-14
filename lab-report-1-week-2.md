@@ -18,7 +18,7 @@ In the terminal, you are going to write the following command except with your 3
 
 Once that runs, you should see something similar to this. Because this isn't my first time connecting to the server, the terminal doesn't prompt me with a statement about my security. (If it does, you should accept)
 
-![openVS](ss3.png)
+![ss3](ss3.png)
 After entering your password, you should be successfully connected and your terminal will look a bit like this. 
 ```
 ```
