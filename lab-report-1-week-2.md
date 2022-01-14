@@ -9,6 +9,7 @@ Here we are going to download Visual Studio Code for whichever OS necessary. I h
 ```
 ## Step 2: Set Up 
 ![Image](ss1.png)
+
 Once you open VS Code, your screen should look something like this. From this point, you want to open the terminal from the bar in the top left corner. This will allow us to send commands to remotely connect. 
 ```
 ```
