@@ -65,8 +65,10 @@ Once you have done that it should look something like this:
 After this step, the set of files should now be in the .ssh of your computer. Now I am going to move the public key (id_rsa.pub) to the remote computer by running:
 > * mkdir .ssh --> to get the path of the file
 > * scp /Users/maryr/.ssh/id_rsa.pub cs15lwiaol@ieng6.ucsd.edu:~/.ssh/authorized_keys --> replace the username and path
+
 ```
 ```
+
 ## Step 7: Tips to Speed up Remote Running
 1. One thing you can do is to add quotes to a command after your ssh command to run it on the remote computer. Just be careful because this exits the remote computer once the command ends. An example of such is shown below: 
 ![Image](ss7.PNG)
