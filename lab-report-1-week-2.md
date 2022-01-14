@@ -2,13 +2,13 @@
 *By Mary Ramada*
 
 ## Step 1: Downloading VS Code
-![downloadVS](download.png)
+![Image](download.png)
 The first thing you're going to want to do is go to code.visualstudio.com.
 Here we are going to download Visual Studio Code for whichever OS necessary. I have a Windows, so it shows a "Download for Windows" button on my screen, but by clicking that blue arrow it will show you other OS download options. 
 ```
 ```
 ## Step 2: Set Up 
-![openVS](ss1.png)
+![Image](ss1.png)
 Once you open VS Code, your screen should look something like this. From this point, you want to open the terminal from the bar in the top left corner. This will allow us to send commands to remotely connect. 
 ```
 ```
@@ -18,7 +18,7 @@ In the terminal, you are going to write the following command except with your 3
 
 Once that runs, you should see something similar to this. Because this isn't my first time connecting to the server, the terminal doesn't prompt me with a statement about my security. (If it does, you should accept)
 
-![ss3](ss3.png)
+![Image](ss3.png)
 After entering your password, you should be successfully connected and your terminal will look a bit like this. 
 ```
 ```
@@ -31,7 +31,7 @@ Below are some commands I reccomend trying. I have provided my own explanation f
 > * ls -a : lists files more compactly
 > * scp : Secure copy from local to ssh
 
-![testingCommands](ss4.png)
+![Image](ss4.png)
 Here is an example of me running some of the commands listed above. 
 ```
 ```
@@ -41,7 +41,7 @@ So now that we know how to connect to remote computers, it would be helpful to b
 In the terminal, you are going to write the following command except with your 3-digit ID instead of the "aol", and whichever local file you want to move. (I used a file on my computer called WhereAmI): 
 > scp WhereAmI.java cs15lwi22aol@ieng6.ucsd.edu:~/
 
-![scp](ss5.png)
+![Image](ss5.png)
 As you can see towards the top of this picture, it will then prompt you again for your password. Once you enter that in, it should show you your file right underneath. To check that it is there, you can login to the remote computer once again (with the ssh command remember!), and then type the **ls** command in the terminal as you are running it on the remote computer. If all goes will, it should then list your file!
 ```
 ```
@@ -57,7 +57,7 @@ Since I am on Windows, I need to run this instead:
 > ssh-keygen -t ed25519 
 
 Once you have done that it should look something like this:
-![ssh](ss6.png)
+![Image](ss6.png)
 
 (Personally I left the passphrase empty to save time)
 
@@ -68,10 +68,10 @@ After this step, the set of files should now be in the .ssh of your computer. No
 ```
 ## Step 7: Tips to Speed up Remote Running
 1. One thing you can do is to add quotes to a command after your ssh command to run it on the remote computer. Just be careful because this exits the remote computer once the command ends. An example of such is shown below: 
-![opti1](ss7.png)
+![Image](ss7.png)
 
 2. If you want to run more than one command, instead of typing each one per line, you can combine the commands with semicolons. An example of such is shown below: 
-![opti2](ss8.png)
+![Image](ss8.png)
 
 
 
