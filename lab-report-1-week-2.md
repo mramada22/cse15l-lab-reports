@@ -1,4 +1,4 @@
-# How to log into a Course-Specific Account on ieng6
+# Lab Report 1: How to log into a Course-Specific Account on ieng6
 *By Mary Ramada*
 
 ## Step 1: Downloading VS Code
