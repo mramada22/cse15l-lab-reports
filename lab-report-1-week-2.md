@@ -3,7 +3,7 @@
 
 ## Step 1: Downloading VS Code
 ![Image](download.PNG)
-The first thing you're going to want to do is go to code.visualstudio.com.
+The first thing you're going to want to do is go to [VSCode](code.visualstudio.com).
 Here we are going to download Visual Studio Code for whichever OS necessary. I have a Windows, so it shows a "Download for Windows" button on my screen, but by clicking that blue arrow it will show you other OS download options. 
 ```
 ```
