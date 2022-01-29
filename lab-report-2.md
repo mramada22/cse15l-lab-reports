@@ -16,3 +16,7 @@ In this code change, test-file4 contains a link with improper format as there ar
 ```
 ```
 ## Code Change 3: 
+![Image](LE1.PNG)
+![Image](LE2.PNG)
+![Image](LE3.PNG)
+In this code change, the failure-inducing input is as seen in the photo with the Assert Equals containing the List.of method. The symptom is the program returns an error: cannot find symbol as seen in the output. The bug is the fact that the program is unable to recognize what List.of is. Because I did not originally import the java List class, my program could not access the List.of method within that class, thus preventing the lines containing the list.of from working properly. 
