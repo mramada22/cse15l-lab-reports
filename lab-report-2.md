@@ -15,4 +15,4 @@ In this code change, test-file2 includes one photo and one link. The photo link 
 In this code change, test-file4 contains a link with improper format as there are no parenthesis surrounding the "link", causing this test file to be the failure-inducing input because this causes an error in the code. The symptom is an index out of bounds exception, as seen through the output of the code. The bug is that the program cannot find the indices of the parenthesis, causing the indexOf calls for the open parenthesis to return 0. This causes the substring call to cause the symptom to appear when the code compiles. 
 ```
 ```
-Code Change 3: 
+## Code Change 3: 
