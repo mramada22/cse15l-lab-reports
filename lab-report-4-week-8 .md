@@ -60,3 +60,7 @@ If found, I would then make sure that the indices are in between the bracket ind
 
 ![Image](revsnippet3run.PNG)
 *Running snippet 3 test on the implementation I reviewed*
+
+**Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
+
+> I think that in order to fix all related cases that have newlines in brackets and parentheses, it would require a more involved code change. There are a handful of possible combinations for newlines/spaces within brackets and parentheses, and it would make sense to write a method to check for such and then including the method call within the loop for finding the indices of the brackets/parenthesis. 
