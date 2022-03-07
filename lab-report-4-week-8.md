@@ -2,6 +2,12 @@
 *By Mary Ramada*
 ```
 ```
+## Links To Repositories:
+[Link to my repository](https://github.com/mramada22/markdown-parse)
+
+[Link to the repository I reviewed](https://github.com/aldrincheung/markdown-parse)
+```
+```
 ## Snippet 1: 
 ![Image](snip1.PNG)
 ![Image](snippet1preview.PNG)
