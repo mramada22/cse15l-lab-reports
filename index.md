@@ -11,6 +11,8 @@
 
 [Lab Report 4](https://mramada22.github.io/cse15l-lab-reports/lab-report-4-week-8)
 
+[Lab Report 5](https://mramada22.github.io/cse15l-lab-reports/lab-report-5-week-10)
+
 ---
 ```
 
